@@ -1,0 +1,12 @@
+div {
+    border: 0px;
+    padding-top: 20vh;
+    margin: 0px;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 65vh;
+    text-align: center;
+    font-size: 10vw;
+    font-family: "Helvetica", Times, serif;
+}

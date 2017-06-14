@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flip a coin</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div><p id="flip"></p></div>
+        <script>
+            var result = Math.random()
+            if (result > 0.5)
+                document.getElementById("flip").innerHTML = "HEADS"
+            else
+                document.getElementById("flip").innerHTML = "TAILS"
+        </script>
+    </body>
